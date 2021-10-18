@@ -1,0 +1,75 @@
+x'<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    #mostrador{
+        margin: auto;
+        margin-top: 40px;
+        width: 252px;
+        height: 80px;
+     }
+    .espaco{
+         width: 80px;
+         height: 60px;
+         border: 2px solid black;
+         float: left;
+         text-align: center;
+         padding-top: 20px;
+         background-color: white;
+        }
+        .tabuleiro{
+           width: 252px;
+           height: 252px;
+           margin: auto;
+        }
+    body {background-image: url('https://wallpaperaccess.com/full/257381.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .titulo{
+        color: white;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        text-shadow: 5px 5px 5px black;
+    }
+        
+</style>
+
+<body>
+    
+    <div id="mostrador">
+        <p style="float: left; margin-right: 10px; color: white; font-weight: bolder; font-size: 20px;">
+            vez do jogador!
+        </p>
+        <img src="" alt="" style="border: 0; height: 50px;background-color: white; border-radius: 15%">
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+<div class="titulo">JOGO DA VELHA FODA DO JOÃO</div>
+    <script src="game.js"></script>
+
+</body>
+</html>
